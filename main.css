@@ -1,17 +1,17 @@
 /* PALETTE
 
 Marigold #efc74
-Pink
-Blue
-Black
-White
+Pink #ee799b
+Blue #5abef3
+Brown #80513c
+White #f2f4f1
 
 */
 
 body {
     font-size: 1em;
     background-color: #efc74b;
-    color: black;
+    color: #ee799b;
     margin: 5% 5% 5% 5%;
 }
 

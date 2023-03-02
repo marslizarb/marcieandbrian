@@ -21,3 +21,30 @@ body {
 }
 
 /* End https://www.cursors-4u.com */
+
+.box {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.marigold {
+    background-color: #efc74;
+}
+
+.pink {
+    background-color: #ee799b;
+}
+
+.blue {
+    background-color: #5abef3;
+}
+
+.brown {
+    background-color: #80513c;
+}
+
+.white {
+    background-color: #f2f4f1;
+}

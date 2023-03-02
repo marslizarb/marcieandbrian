@@ -29,22 +29,22 @@ body {
     border: 1px solid black;
 }
 
-.marigold {
+#marigold {
     background-color: #efc74b;
 }
 
-.pink {
+#pink {
     background-color: #ee799b;
 }
 
-.blue {
+#blue {
     background-color: #5abef3;
 }
 
-.brown {
+#brown {
     background-color: #80513c;
 }
 
-.white {
+#white {
     background-color: #f2f4f1;
 }

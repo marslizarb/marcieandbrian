@@ -15,4 +15,9 @@ body {
     margin: 5% 5% 5% 5%;
 }
 
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-2/hol136.ani), url(https://cur.cursors-4u.net/holidays/hol-2/hol136.png), auto !important;} /* End https://www.cursors-4u.com */
+/* Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://cur.cursors-4u.net/holidays/hol-2/hol136.ani), url(https://cur.cursors-4u.net/holidays/hol-2/hol136.png), auto !important;
+}
+
+/* End https://www.cursors-4u.com */

@@ -16,67 +16,52 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
 img {
     max-width: 100%;
 }
 
-/* End https://www.cursors-4u.com */
-
-.box {
-    float: left;
-    height: 100px;
-    width: 100px;
-    margin-bottom: 15px;
-    margin-right: 15px;
-}
-
-#marigold {
-    background-color: #efc74b;
-}
-
-#pink {
-    background-color: #ee799b;
-}
-
-#blue {
-    background-color: #5abef3;
-}
-
-#green {
-    background-color: #41bd9e;
-}
-
-#brown {
-    background-color: #321b1b;
-}
-
-#white {
-    background-color: #f2f4f1;
+div {
+    padding-bottom: 100px;
 }
 
 a {
-    color: #ee799b;
+    color: #f2f4f1;
     text-decoration: none;
+    font-style: italic;
+    transition: 0.4s ease-in-out 0s;
+
+}
+
+a:hover {
+    color: #efc74b;
 }
 
 button {
     font-size: 100px;
     background-color: #f2f4f1;
-    color: aliceblue;
+    color: #ee799b;
     border: none;
-    border-radius: 5px;
+    border-radius: 100px;
     padding: 50px;
+    margin: 100px;
     font-style: italic;
+    transition: 0.4s ease-in-out 0s;
 }
 
 button:hover {
     background-color: #efc74b;
+    color: #f2f4f1;
 }
 
-left {
-    
-}
-/* Start https://www.cursors-4u.com */
-* {
-    cursor: url(https://cur.cursors-4u.net/holidays/hol-2/hol136.ani), url(https://cur.cursors-4u.net/holidays/hol-2/hol136.png), auto !important;
+
+footer {
+    font-size: 20px;
 }

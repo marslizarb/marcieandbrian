@@ -10,14 +10,14 @@ White #f2f4f1
 
 body {
     font-size: 1em;
-    background-color: white;
-    color: black;
+    background-color: #ee799b;
+    color: #f2f4f1;
     margin: 5% 5% 5% 5%;
+    text-align: center;
 }
 
-/* Start https://www.cursors-4u.com */
-* {
-    cursor: url(https://cur.cursors-4u.net/holidays/hol-2/hol136.ani), url(https://cur.cursors-4u.net/holidays/hol-2/hol136.png), auto !important;
+img {
+    max-width: 100%;
 }
 
 /* End https://www.cursors-4u.com */
@@ -54,13 +54,29 @@ body {
     background-color: #f2f4f1;
 }
 
-/* CSS HEX */
-mikado-yellow: #F4BE0Dff;
-cyclamen: #E9719Dff;
-rusty-red: #D0314Eff;
-magenta-haze: #991E6Eff;
-apple-green: #879C16ff;
-office-green: #01670Fff;
-moonstone: #5CBACAff;
-green-blue: #036AC3ff;
-resolution-blue: #012077ff;
+a {
+    color: #ee799b;
+    text-decoration: none;
+}
+
+button {
+    font-size: 100px;
+    background-color: #f2f4f1;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 50px;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: #efc74b;
+}
+
+left {
+    
+}
+/* Start https://www.cursors-4u.com */
+* {
+    cursor: url(https://cur.cursors-4u.net/holidays/hol-2/hol136.ani), url(https://cur.cursors-4u.net/holidays/hol-2/hol136.png), auto !important;
+}

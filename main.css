@@ -8,6 +8,11 @@ White #f2f4f1
 
 */
 
+@font-face {
+    font-family: "basteleur-bold";
+    src: url("basteleur-bold-webfont.woff");
+}
+
 body {
     font-size: 1.5em;
     background-color: #efc74b;
@@ -17,10 +22,12 @@ body {
 }
 
 h1 {
+    font-family: "basteleur-bold";
     font-size: 100px;
 }
 
 h2 {
+    font-family: "basteleur-bold";
     font-size: 50px;
 }
 

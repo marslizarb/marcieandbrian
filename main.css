@@ -4,8 +4,9 @@ Yellow #F5D94A
 Red #BB2A2D
 Blue #299FBD
 Green #48954F
-Pink #D74880
+Pink #E8BDC7
 White #FEF7ED
+Black #1C110D
 
 */
 
@@ -37,7 +38,6 @@ h2 {
 
 p {
     color: #FEF7ED;
-
 }
 
 img {
@@ -49,21 +49,20 @@ div {
 }
 
 a {
-    color: #FEF7ED;
+    color: #E8BDC7;
     text-decoration: none;
     font-style: italic;
     transition: 0.4s ease-in-out 0s;
-
 }
 
 a:hover {
-    color: #D74880;
+    color: #BB2A2D;
 }
 
 button {
     font-size: 100px;
-    background-color: #f2f4f1;
-    color: #efc74b;
+    background-color: #E8BDC7;
+    color: #48954F;
     border: none;
     border-radius: 100px;
     padding: 50px;
@@ -73,8 +72,8 @@ button {
 }
 
 button:hover {
-    background-color: #efc74b;
-    color: #f2f4f1;
+    background-color: #48954F;
+    color: #E8BDC7;
 }
 
 

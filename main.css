@@ -11,9 +11,12 @@ White #f2f4f1
 @font-face {
     font-family: "basteleur-bold";
     src: url("basteleur-bold-webfont.woff");
+    font-family: "cmunrm";
+    src: url("cmunrm-webfont.woff");
 }
 
 body {
+    font-family: "cmunrm";
     font-size: 1.5em;
     background-color: #efc74b;
     color: #f2f4f1;

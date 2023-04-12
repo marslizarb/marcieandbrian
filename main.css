@@ -13,8 +13,14 @@ Black #1C110D
 @font-face {
     font-family: "basteleur-bold";
     src: url("basteleur-bold-webfont.woff");
+
+}
+
+@font-face {
+
     font-family: "cmunrm";
     src: url("cmunrm-webfont.woff");
+
 }
 
 body {
@@ -60,6 +66,7 @@ a:hover {
 }
 
 button {
+    font-family: "basteleur-bold";
     font-size: 100px;
     background-color: #E8BDC7;
     color: #48954F;

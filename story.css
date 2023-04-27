@@ -28,7 +28,7 @@ body {
     font-family: "cmunrm";
     font-size: 27px;
     text-align: center;
-    line-height: inherit;
+    line-height: 1em;
 }
 
 h1 {

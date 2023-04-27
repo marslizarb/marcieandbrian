@@ -13,6 +13,11 @@ Light grey #d4e2e5
 
 */
 
+html {
+    scroll-behavior: smooth !important;
+
+}
+
 @font-face {
     font-family: "basteleur-bold";
     src: url("basteleur-bold-webfont.woff");

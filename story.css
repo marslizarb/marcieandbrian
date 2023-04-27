@@ -1,0 +1,119 @@
+/* PALETTE
+
+Yellow #FADE00
+Light Orange #ffbf00
+Orange #ff820b
+Red #ff0000
+Blue #00c5e3
+Dark green #3aa01b
+Light green #b9d600
+Black #010100
+White #ededed
+Light grey #d4e2e5
+
+*/
+
+@font-face {
+    font-family: "basteleur-bold";
+    src: url("basteleur-bold-webfont.woff");
+
+}
+
+@font-face {
+    font-family: "cmunrm";
+    src: url("cmunrm-webfont.woff");
+}
+
+body {
+    font-family: "cmunrm";
+    font-size: 27px;
+    text-align: center;
+    line-height: inherit;
+}
+
+h1 {
+    font-family: "basteleur-bold";
+    font-size: 90px;
+    line-height: 100px;
+}
+
+h2 {
+    font-family: "basteleur-bold";
+    font-size: 45px;
+    line-height: 45px;
+}
+
+h3 {
+    font-family: "basteleur-bold";
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#tableofcontents {
+    background-color: #ff0000;
+    color: #ededed;
+}
+
+#tableofcontents a {
+    color: #ededed;
+    text-decoration: none;
+}
+
+#tableofcontents a:hover {
+    font-style: italic;
+    color: #00c5e3;
+}
+
+#year1 {
+    background-color: #b9d600;
+    color: #3aa01b;
+}
+
+#caption {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center
+}
+
+#border {
+    border: 2px solid #010100;
+}
+
+.story {
+    margin: auto;
+    width: 70%;
+    max-width: 1100px;
+}
+
+.story p {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.story p {
+    text-align: left;
+}
+
+#caption {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center
+}
+
+.nav {
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    overflow: auto;
+    text-align: left;
+}
+
+.nav h3 {
+    font-size: 20px;
+}

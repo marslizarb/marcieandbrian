@@ -15,7 +15,6 @@ Light grey #d4e2e5
 
 html {
     scroll-behavior: smooth !important;
-
 }
 
 .mobile,
@@ -44,19 +43,19 @@ body {
 h1 {
     font-family: "basteleur-bold";
     font-size: 90px;
-    line-height: 100px;
+    line-height: 1.2em;
 }
 
 h2 {
     font-family: "basteleur-bold";
     font-size: 45px;
-    line-height: 45px;
+    line-height: 1.2em;
 }
 
 h3 {
     font-family: "basteleur-bold";
     font-size: 30px;
-    line-height: 50px;
+    line-height: 1.2em;
 }
 
 img {
@@ -92,15 +91,15 @@ a img:hover {
 }
 
 #year1 {
-    background-color: #b9d600;
-    color: #3aa01b;
+    background-color: #FADE00;
+    color: #ff820b;
 }
 
 #caption {
     font-style: italic;
     font-size: 20px;
     text-align: center;
-    line-height: 25px;
+    line-height: 1.2em;
     padding-bottom: 10px;
 }
 
@@ -172,7 +171,7 @@ a img:hover {
 
 .story p {
     font-size: 40px;
-    line-height: 50px;
+    line-height: 1.2em;
     text-align: left;
 }
 
@@ -186,7 +185,7 @@ a img:hover {
     margin-bottom: 20px;
 }
 
-.display:not(:last-child) {
+.display {
     display: flex;
     padding-bottom: 20px;
 }
@@ -200,7 +199,6 @@ a img:hover {
 .right {
     width: 50%;
     padding-left: 15px;
-    float: right;
 }
 
 p {
@@ -221,38 +219,53 @@ p {
 
     .table {
         grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
     }
 
     .table img {
-        max-height: 300px;
-        border: 2px solid #010100;
+        width: 100%;
+        object-fit: cover;
     }
 
     .nav {
         display: none;
     }
 
+    .display {
+        display: block;
+        margin: auto;
+    }
+
     .story {
         margin: auto;
         width: 90%;
-        display: block;
     }
 
-    .story img {
-        display: block;
+    .story video {
+        margin: auto;
+        padding-bottom: 30px;
         width: 100%;
     }
 
     .left {
-        width: 200%;
+        width: 100%;
         float: none;
-        display: block;
+        margin: auto;
+        padding: 0;
     }
 
     .right {
-        width: 200%;
+        width: 100%;
         float: none;
-        display: block;
+        left: 0;
+        right: 0;
+        padding: 0;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .navmobile {

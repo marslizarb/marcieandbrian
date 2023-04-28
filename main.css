@@ -248,14 +248,24 @@ a img:hover {
 @media all and (max-width: 800px) {
 
     .mobile {
-        display: inline;
+        display: inline-block;
+        margin: auto;
+        width: 95%;
+    }
+
+    .mobile h1 {
+        font-size: 3em;
+    }
+
+    .mobile h2 {
+        font-size: 1em;
     }
 
     .container {
         position: absolute;
         margin: auto;
         width: 100%;
-        top: 0%;
+        top: auto;
         left: 0%;
         -ms-transform: none;
         -webkit-transform: none;
@@ -270,15 +280,14 @@ a img:hover {
     .left {
         width: 100%;
         margin: auto;
-        display: inline-block;
+        display: block;
         float: none;
-
     }
 
     .right {
         width: 100%;
         margin: auto;
-        display: inline-block;
+        display: block;
         float: none;
     }
 

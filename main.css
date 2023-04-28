@@ -302,7 +302,7 @@ a img:hover {
 
 
     h1 {
-        font-size: 2.5em;
+        font-size: 2em;
         line-height: 1.2em;
     }
 
@@ -325,6 +325,7 @@ a img:hover {
     .navmobile p {
         color: #010100;
         text-decoration: none;
+        line-height: 0;
     }
 
     #details,

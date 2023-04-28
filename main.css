@@ -24,7 +24,8 @@ Light grey #d4e2e5
     src: url("cmunrm-webfont.woff");
 }
 
-.mobile {
+.mobile,
+.navmobile {
     display: none;
 }
 
@@ -37,7 +38,7 @@ body {
 
 h1 {
     font-family: "basteleur-bold";
-    font-size: 90px;
+    font-size: 3em;
     line-height: 100px;
 }
 
@@ -298,3 +299,46 @@ a img:hover {
         -ms-transform: none;
         transform: none;
     }
+
+
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.2em;
+    }
+
+    .navhome,
+    .navtopright,
+    .navbottomleft,
+    .navbottomright {
+        display: none;
+    }
+
+    .navmobile {
+        display: inline-block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #FADE00;
+    }
+
+    .navmobile p {
+        color: #010100;
+        text-decoration: none;
+    }
+
+    #details,
+    #travel {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 18%;
+        width: 90%;
+        margin: auto;
+    }
+
+    #details a:hover,
+    #travel a:hover {
+        text-decoration: none;
+    }
+
+}

@@ -18,6 +18,11 @@ html {
 
 }
 
+.mobile,
+.navmobile {
+    display: none;
+}
+
 @font-face {
     font-family: "basteleur-bold";
     src: url("basteleur-bold-webfont.woff");
@@ -176,9 +181,6 @@ a img:hover {
 .story p {
     font-size: 40px;
     line-height: 50px;
-}
-
-.story p {
     text-align: left;
 }
 
@@ -190,7 +192,6 @@ a img:hover {
 
 .story video {
     margin-bottom: 20px;
-
 }
 
 .display:not(:last-child) {
@@ -212,4 +213,52 @@ a img:hover {
 
 p {
     margin-top: auto;
+}
+
+/* web responsiveness */
+
+@media all and (max-width: 800px) {
+
+    a img:hover {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    .table {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .table img {
+        max-height: 300px;
+        border: 2px solid #010100;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .story {
+        margin: auto;
+        width: 90%;
+    }
+
+    .story img {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .navmobile a {
+        color: #010100;
+        text-decoration: none;
+    }
 }

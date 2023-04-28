@@ -93,32 +93,13 @@ a img:hover {
 #caption {
     font-style: italic;
     font-size: 20px;
-    text-align: center
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 10px;
 }
 
 #border {
     border: 2px solid #010100;
-}
-
-.story {
-    margin: auto;
-    width: 70%;
-    max-width: 1100px;
-}
-
-.story p {
-    font-size: 40px;
-    line-height: 50px;
-}
-
-.story p {
-    text-align: left;
-}
-
-#caption {
-    font-style: italic;
-    font-size: 20px;
-    text-align: center
 }
 
 
@@ -183,4 +164,46 @@ a img:hover {
     bottom: 0;
     right: 0;
     position: fixed;
+}
+
+.story {
+    margin: auto;
+    width: 70%;
+    max-width: 900px;
+}
+
+.story p {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.story p {
+    text-align: left;
+}
+
+.story img {
+    max-height: 800px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.display:not(:last-child) {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.left {
+    width: 50%;
+    padding-right: 15px;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    padding-left: 15px;
+    float: right;
+}
+
+p {
+    margin-top: auto;
 }

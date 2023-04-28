@@ -24,6 +24,10 @@ Light grey #d4e2e5
     src: url("cmunrm-webfont.woff");
 }
 
+.mobile {
+    display: none;
+}
+
 body {
     font-family: "cmunrm";
     font-size: 27px;
@@ -139,8 +143,6 @@ a img:hover {
     position: fixed;
 }
 
-
-
 .container {
     position: absolute;
     width: 100%;
@@ -240,3 +242,50 @@ a img:hover {
 #leftalign {
     text-align: left;
 }
+
+/* web responsiveness */
+
+@media all and (max-width: 800px) {
+
+    .mobile {
+        display: inline;
+    }
+
+    .container {
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        -ms-transform: none;
+        -webkit-transform: none;
+        transform: none;
+        overflow: hidden;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+        float: none;
+
+    }
+
+    .right {
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+        float: none;
+    }
+
+    a img:hover {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }

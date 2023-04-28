@@ -122,14 +122,6 @@ a img:hover {
     border: 2px solid #010100;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 1em auto;
-    padding: 1em;
-    text-align: center;
-    font-size: 18px;
-}
-
 .nav h3 {
     margin: 10px;
     padding: 10px;
@@ -243,22 +235,37 @@ p {
     .story {
         margin: auto;
         width: 90%;
+        display: block;
     }
 
     .story img {
         display: block;
+        width: 100%;
     }
 
     .left {
-        width: 100%;
+        width: 200%;
+        float: none;
+        display: block;
     }
 
     .right {
-        width: 100%;
+        width: 200%;
+        float: none;
+        display: block;
+    }
+
+    .navmobile {
+        display: block;
     }
 
     .navmobile a {
         color: #010100;
         text-decoration: none;
+    }
+
+    #caption {
+        font-size: 1em;
+        line-height: 1.2em;
     }
 }

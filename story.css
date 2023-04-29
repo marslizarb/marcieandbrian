@@ -99,7 +99,6 @@ a img:hover {
     font-size: 20px;
     text-align: center;
     line-height: 1.2em;
-    padding-bottom: 10px;
 }
 
 #border {
@@ -187,7 +186,6 @@ a img:hover {
 
 .display {
     display: flex;
-    padding-bottom: 20px;
 }
 
 .left {
@@ -290,4 +288,11 @@ p {
         font-size: 1em;
         line-height: 1.2em;
     }
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.8em
 }

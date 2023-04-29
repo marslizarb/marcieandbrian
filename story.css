@@ -110,9 +110,11 @@ a img:hover {
 /* table of contents */
 .table {
     display: grid;
-    column-gap: 50px;
-    row-gap: 50px;
+    column-gap: 30px;
+    row-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: auto;
 }
 
 .table img {
@@ -124,7 +126,7 @@ a img:hover {
     margin: 10px;
     padding: 10px;
     font-size: 18px;
-    background-color: #FADE00;
+    background-color: #ffbf00;
     border: 2px solid #010100;
 }
 
@@ -169,13 +171,12 @@ a img:hover {
 }
 
 .story p {
-    font-size: 40px;
+    font-size: 1.5em;
     line-height: 1.2em;
     text-align: left;
 }
 
 .story img {
-    max-height: 800px;
     display: inline-block;
     margin-bottom: 20px;
 }

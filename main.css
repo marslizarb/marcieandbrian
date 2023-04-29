@@ -252,10 +252,11 @@ a img:hover {
         display: inline-block;
         margin: auto;
         width: 95%;
+        line-height: 1.2em;
     }
 
     .mobile h1 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .mobile h2 {

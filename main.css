@@ -281,6 +281,7 @@ a img:hover {
 
     .left {
         width: 100%;
+        max-width: 80vw;
         margin: auto;
         display: block;
         float: none;
@@ -288,6 +289,7 @@ a img:hover {
 
     .right {
         width: 100%;
+        max-width: 80vw;
         margin: auto;
         display: block;
         float: none;
@@ -313,6 +315,11 @@ a img:hover {
         line-height: 1.2em;
     }
 
+    p {
+        font-size: .8em;
+        line-height: 1.2em;
+    }
+
     .navhome,
     .navtopright,
     .navbottomleft,
@@ -335,6 +342,10 @@ a img:hover {
         margin: auto;
         width: 30%;
         border-radius: 10px;
+    }
+
+    button h3 {
+        color: #010100;
     }
 
     .navmobile p {

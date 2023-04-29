@@ -38,14 +38,14 @@ body {
 
 h1 {
     font-family: "basteleur-bold";
-    font-size: 3em;
-    line-height: 100px;
+    font-size: 2.5em;
+    line-height: 1.2em;
 }
 
 h2 {
     font-family: "basteleur-bold";
     font-size: 45px;
-    line-height: 45px;
+    line-height: 1.2em;
 }
 
 h3 {
@@ -77,8 +77,8 @@ a img:hover {
 #details {
     background-color: #3aa01b;
     color: #FADE00;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 25%;
+    padding-right: 25%;
     margin: auto;
 }
 
@@ -95,8 +95,8 @@ a img:hover {
 #travel {
     background-color: #ffbf00;
     color: #3aa01b;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 25%;
+    padding-right: 25%;
     margin: auto;
 }
 
@@ -256,7 +256,7 @@ a img:hover {
     }
 
     .mobile h1 {
-        font-size: 2.5em;
+        font-size: 2.1em;
     }
 
     .mobile h2 {
@@ -303,7 +303,13 @@ a img:hover {
 
 
     h1 {
-        font-size: 2em;
+        font-size: 1.8em;
+        line-height: 1.2em;
+    }
+
+    h2,
+    h3 {
+        font-size: 1em;
         line-height: 1.2em;
     }
 
@@ -317,10 +323,18 @@ a img:hover {
     .navmobile {
         display: inline-block;
         position: fixed;
-        top: 0;
+        top: 2%;
         left: 0;
         right: 0;
+    }
+
+    button {
         background-color: #FADE00;
+        border: none;
+        padding: 10px;
+        margin: auto;
+        width: 30%;
+        border-radius: 10px;
     }
 
     .navmobile p {

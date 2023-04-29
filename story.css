@@ -95,6 +95,16 @@ a img:hover {
     text-decoration: none;
 }
 
+.story a {
+    color: #3aa01b;
+    text-decoration: none;
+}
+
+.story a:hover {
+    color: #b9d600;
+    font-style: italic;
+}
+
 #tableofcontents a:hover {
     color: #00c5e3;
 }

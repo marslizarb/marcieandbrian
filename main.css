@@ -93,21 +93,21 @@ a img:hover {
 }
 
 #travel {
-    background-color: #ffbf00;
-    color: #3aa01b;
+    background-color: #ff820b;
+    color: #FADE00;
     padding-left: 25%;
     padding-right: 25%;
     margin: auto;
 }
 
 #travel a {
-    color: #ff820b;
+    color: #b9d600;
     text-decoration: none;
 }
 
 #travel a:hover {
     text-decoration: underline;
-    color: #ff820b;
+    color: #3aa01b;
 }
 
 #year1 {

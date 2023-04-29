@@ -209,6 +209,15 @@ p {
 
 @media all and (max-width: 800px) {
 
+    h1 {
+        font-size: 2em;
+    }
+
+    h2,
+    h3 {
+        font-size: 1em;
+    }
+
     a img:hover {
         -webkit-transform: none;
         -moz-transform: none;
@@ -244,7 +253,7 @@ p {
 
     .story video {
         margin: auto;
-        padding-bottom: 30px;
+        margin-bottom: 30px;
         width: 100%;
     }
 

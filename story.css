@@ -46,6 +46,11 @@ h1 {
     line-height: 1.2em;
 }
 
+.story h1 {
+    font-size: 5em;
+    line-height: .5em;
+}
+
 h2 {
     font-family: "basteleur-bold";
     font-size: 45px;
@@ -55,6 +60,11 @@ h2 {
 h3 {
     font-family: "basteleur-bold";
     font-size: 30px;
+}
+
+.story h3 {
+    font-size: 1em;
+    line-height: 1.2em;
 }
 
 img {
@@ -104,6 +114,15 @@ a img:hover {
 #border {
     border: 2px solid #010100;
 }
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.8em
+}
+
+
 
 
 /* table of contents */
@@ -182,6 +201,11 @@ a img:hover {
 
 .story video {
     margin-bottom: 20px;
+}
+
+span {
+    margin-top: 30px;
+    display: block;
 }
 
 .display {
@@ -290,9 +314,6 @@ p {
     }
 }
 
-.container {
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    line-height: 1.8em
+.main {
+    padding-top: 30px;
 }

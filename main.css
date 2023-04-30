@@ -128,7 +128,7 @@ a img:hover {
 }
 
 #details a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffbf00;
 }
 
@@ -146,8 +146,8 @@ a img:hover {
 }
 
 #travel a:hover {
-    text-decoration: underline;
-    color: #ffbf00;
+    text-decoration: none;
+    color: #b9d600;
 }
 
 #year1 {

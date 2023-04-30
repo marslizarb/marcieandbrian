@@ -369,3 +369,9 @@ p {
         line-height: 1.2em;
     }
 }
+
+.title {
+    max-width: 750px;
+    margin: auto;
+    padding-bottom: 30px
+}

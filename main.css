@@ -141,13 +141,13 @@ a img:hover {
 }
 
 #travel a {
-    color: #b9d600;
+    color: #ededed;
     text-decoration: none;
 }
 
 #travel a:hover {
     text-decoration: underline;
-    color: #3aa01b;
+    color: #ffbf00;
 }
 
 #year1 {

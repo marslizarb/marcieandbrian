@@ -45,12 +45,13 @@ body {
 h1 {
     font-family: "basteleur-bold";
     font-size: 2.5em;
-    line-height: 1.2em;
+    line-height: 1em;
 }
 
 .story h1 {
     font-size: 5em;
-    line-height: 1em;
+    line-height: 0em;
+    margin-top: 120px;
 }
 
 h2 {

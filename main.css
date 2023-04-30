@@ -33,7 +33,8 @@ Light grey #d4e2e5
 
 .container {
     position: absolute;
-    width: 100%;
+    margin: auto;
+    width: 90%;
     top: 50%;
     left: 50%;
     -ms-transform: translateX(-50%) translateY(-50%);

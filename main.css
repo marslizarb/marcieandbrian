@@ -339,11 +339,12 @@ a img:hover {
 
     button {
         background-color: #FADE00;
-        border: none;
-        padding: 10px;
+        border: 2px solid #010100;
+        padding: 0px;
         margin: auto;
         width: 30%;
         border-radius: 10px;
+        font-size: .7em;
     }
 
     button h3 {

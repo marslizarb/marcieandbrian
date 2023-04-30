@@ -329,13 +329,39 @@ p {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .navmobile {
-        display: block;
+    .navmobile a {
+        color: #FADE00;
+        text-decoration: none;
     }
 
-    .navmobile a {
+    .mobile a {
         color: #010100;
         text-decoration: none;
+    }
+
+    .navmobile {
+        display: inline-block;
+        position: fixed;
+        top: 2%;
+        left: 0;
+        right: 0;
+    }
+
+    .mobile {
+        display: inline-block;
+        margin: auto;
+        width: 95%;
+        line-height: 1.2em;
+    }
+
+    button {
+        background-color: #ff820b;
+        border: none;
+        padding: 5px;
+        margin: auto;
+        width: 30%;
+        border-radius: 10px;
+        font-size: .7em;
     }
 
     #caption {

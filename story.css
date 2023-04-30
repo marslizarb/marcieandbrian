@@ -38,6 +38,8 @@ body {
     font-size: 27px;
     text-align: center;
     line-height: 1em;
+    background-color: #FADE00;
+    color: #ff820b;
 }
 
 h1 {
@@ -217,15 +219,9 @@ a img:hover {
     margin-bottom: 20px;
 }
 
-div {
-    width: 100%;
-    margin: auto;
-}
-
 span {
     margin-top: 30px;
     display: block;
-    width: 100%;
 }
 
 .display {
@@ -246,6 +242,8 @@ span {
 p {
     margin-top: auto;
 }
+
+
 
 /* web responsiveness */
 

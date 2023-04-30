@@ -29,12 +29,12 @@ html {
 }
 
 @font-face {
-    font-family: "cmunrm";
-    src: url("cmunrm-webfont.woff");
+    font-family: "GFSArtemisia";
+    src: url("GFSArtemisia.ttf");
 }
 
 body {
-    font-family: "cmunrm";
+    font-family: "GFSArtemisia";
     font-size: 27px;
     text-align: center;
     line-height: 1em;

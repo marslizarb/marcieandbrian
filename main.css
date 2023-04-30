@@ -20,8 +20,8 @@ Light grey #d4e2e5
 }
 
 @font-face {
-    font-family: "cmunrm";
-    src: url("cmunrm-webfont.woff");
+    font-family: "GFSArtemisia";
+    src: url("GFSArtemisia.ttf");
 }
 
 .mobile,
@@ -70,7 +70,7 @@ Light grey #d4e2e5
 }
 
 body {
-    font-family: "cmunrm";
+    font-family: "GFSArtemisia";
     font-size: 27px;
     text-align: center;
     line-height: inherit;

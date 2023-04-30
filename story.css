@@ -250,12 +250,19 @@ p {
 @media all and (max-width: 800px) {
 
     h1 {
-        font-size: 1em;
+        font-size: 1.5em;
+        line-height: 30px;
     }
 
     h2,
     h3 {
         font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 1em;
     }
 
     a img:hover {

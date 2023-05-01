@@ -124,13 +124,13 @@ a img:hover {
 }
 
 #details a {
-    color: #b9d600;
+    color: #ffbf00;
     text-decoration: none;
 }
 
 #details a:hover {
     text-decoration: none;
-    color: #ffbf00;
+    color: #b9d600;
 }
 
 #travel {

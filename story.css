@@ -42,6 +42,12 @@ body {
     color: #ff820b;
 }
 
+.title {
+    max-width: 750px;
+    margin: auto;
+    padding-bottom: 30px
+}
+
 h1 {
     font-family: "basteleur-bold";
     font-size: 2.5em;
@@ -373,10 +379,4 @@ p {
     .title h1 {
         line-height: 1.2em;
     }
-}
-
-.title {
-    max-width: 750px;
-    margin: auto;
-    padding-bottom: 30px
 }

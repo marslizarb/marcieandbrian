@@ -123,16 +123,6 @@ a img:hover {
     margin: auto;
 }
 
-#details a {
-    color: #ededed;
-    text-decoration: none;
-}
-
-#details a:hover {
-    text-decoration: none;
-    color: #b9d600;
-}
-
 #travel {
     background-color: #ff820b;
     color: #FADE00;
@@ -141,15 +131,19 @@ a img:hover {
     margin: auto;
 }
 
+#details a,
 #travel a {
     color: #ededed;
     text-decoration: none;
 }
 
+#details a:hover,
 #travel a:hover {
     text-decoration: none;
     color: #b9d600;
 }
+
+
 
 #year1 {
     background-color: #b9d600;
